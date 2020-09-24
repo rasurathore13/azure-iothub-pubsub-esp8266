@@ -59,12 +59,9 @@ const char* iothub_user = "";
 const char* iothub_sas_token = "";
 
 // default topic feed for subscribing is "devices/<myCoolDevice>/messages/devicebound/#""
-// My ASSUMPTION is the default topic can be anything you like as IOT Hub internally uses MQTT 3.1.1 protocol it will be able to handle the topic.
-// It is upto you to give whatever subscribe tokic you want to give.
 const char* iothub_subscribe_endpoint = "";
 
 // default topic feed for publishing is "devices/<myCoolDevice>/messages/events/"
-// Again MY ASSUMPTION is that the publishing topic can also be anything you like.
 const char* iothub_publish_endpoint = "";
 
 
